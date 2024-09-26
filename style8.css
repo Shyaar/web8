@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    margin-right: auto;
+}
+
+li, a, button {
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.imgh {
+    margin: 0 40px;
+}
+
+nav {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.content{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    padding: 60px;
+}
